@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Повар-путешественник</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <p class="logo_black">cook&travel</p>
+      <p class="logo_yelow">cook&travel</p>
+      <nav class="menu">
+        <a href="#about_me">Обо мне</a>
+        <a href="#photo">Фотоотчет</a>
+        <a href="#schedule">Расписание</a>
+        <a href="#price">Цена</a>
+        <a href="#blog">Блог</a>
+        <a href="#footer">Контакты</a>
+      </nav>
+      <nav class="links">
+        <a href="#"
+          ><img src="img/youtube.svg" alt="youtube" class="youtube"
+        /></a>
+        <a href="#"><img src="img/vk.svg" alt="vk" class="vk" /></a>
+        <a href="https://www.instagram.com/ubermensch_96/"><img src="img/insta.svg" alt="insta" class="insta" /></a>
+        <a href="#"><img src="img/fb.svg" alt="fb" class="fb" /></a>
+      </nav>
+      <div class="info">
+        <h1 class="h1_black">Cook&Travel</h1>
+        <h1 class="h1_yelow">Cook&Travel</h1>
+        <p class="mc">Мастер-классы</p>
+        <p class="pp">Повара-путешественника</p>
+        <a href="#form"> <button class="btn_header">Записаться</button></a>
+      </div>
+    </header>
+    <section class="about_me">
+      <p class="about_me_text" id="about_me">Обо мне</p>
+      <p class="who_am_i">
+        Привет. Меня зовут Олег<br />
+        Профессиональный повар<br />Обладатель звезды Мишлен
+      </p>
+      <p class="what_i_do">
+        Путешествую по миру,<br />
+        Провожу мастер-классы,<br />
+        Обучаю правильному питанию.
+      </p>
+      <p class="what_i_do_also">Вдохновляю людей готовить с энтузиазмом.</p>
+      <img src="img/flower.png" class="flower" />
+      <img src="img/cook.png" alt="cook" class="cook" />
+      <div class="age">
+        <p class="age_one">мне</p>
+        <div class="age_two">30</div>
+        <div class="age_two_gold">30</div>
+        <p class="age_three">лет</p>
+      </div>
+      <div class="countries">
+        <p class="country_one">посетил</p>
+        <div class="country_two">73</div>
+        <div class="country_two_gold">73</div>
+        <p class="country_three">страны</p>
+      </div>
+      <div class="mclass">
+        <p class="mclass_one">провел</p>
+        <div class="mclass_two">101</div>
+        <div class="mclass_two_gold">101</div>
+        <p class="mclass_three">мастер-класс</p>
+      </div>
+    </section>
+    <section class="slider" id="photo">
+      <p class="meals">Мои блюда</p>
+      <div class="vebenan_exsapating">
+        <div class="couragin">
+          <img src="img/food.jpg" alt="" />
+        </div>
+
+        <div class="couragin">
+          <img src="img/food2.png" alt="" />
+        </div>
+
+        <div class="couragin">
+          <img src="img/food3.jpg" alt="" />
+        </div>
+        <div class="couragin">
+          <img src="img/food4.jpg" alt="" />
+        </div>
+        <div class="couragin">
+          <img src="img/food5.png" alt="" />
+        </div>
+
+        <a class="prev" onclick="minusSlide()">❮</a>
+        <a class="next" onclick="plusSlide()">❯</a>
+      </div>
+
+      <div class="vebenan_exsapating-dots">
+        <span class="asequ_tomore_katima" onclick="currentSlide(1)"></span>
+        <span class="asequ_tomore_katima" onclick="currentSlide(2)"></span>
+        <span class="asequ_tomore_katima" onclick="currentSlide(3)"></span>
+        <span class="asequ_tomore_katima" onclick="currentSlide(4)"></span>
+        <span class="asequ_tomore_katima" onclick="currentSlide(5)"></span>
+      </div>
+    </section>
+    <section class="schedule" >
+      <p class="ms_schedule" id="schedule">Расписание мастер-классов</p>
+      <span class="line_one"></span>
+      <p class="usa">США</p>
+      <p class="vash">ВАШИНГТОН</p>
+      <p class="usa_date">28.06.2020</p>
+      <span class="line_two"></span>
+      <p class="india">Индия</p>
+      <p class="deli">ДЕЛИ</p>
+      <p class="india_date">18.07.2020</p>
+      <span class="line_three"></span>
+      <p class="china">Китай</p>
+      <p class="pekin">ПЕКИН</p>
+      <p class="china_date">03.08.2020</p>
+
+      <span class="line_four"></span>
+      <p class="germany">Германия</p>
+      <p class="berlin">БЕРЛИН</p>
+      <p class="germany_date">11.09.2020</p>
+      <span class="line_five"></span>
+      <img src="img/Rectangle 49.png" alt="" class="pic1" />
+      <img src="img/Rectangle 50.png" alt="" class="pic2" />
+      <img src="img/Rectangle 51.png" alt="" class="pic3" />
+      <img src="img/Rectangle 52.png" alt="" class="pic4" />
+      <img src="img/Rectangle 53.png" alt="" class="pic5" />
+      <img src="img/Rectangle 54.png" alt="" class="pic6" />
+      <p class="mclass_cook" id="price">
+        <b> На мастер - классе:</b><br />
+
+        - Мы приготовим 5 экзотических блюд<br />
+        - Научимся сервировке <br />
+        - Я расскажу тонкости разных традиций<br />
+        - Вы получите книгу с рецептами<br />
+        - Много положительных эмоций <br />
+      </p>
+      <p class="mclass_price">
+        Стоимость мастер-класса<br />
+        <b> 15990 ₽ </b>
+      </p>
+      <p class="mclass_programm">
+        Программу мастер-класса смотрите <a href="#">тут</a>
+      </p>
+      <a href="#form"> <button class="btn_section">Записаться</button></a>
+    </section>
+    <section class="blog">
+      <p class="blog_text"  id="blog">БЛОГ</p>
+      <img src="img/Rectangle 55.png" alt="" class="pic_viet" />
+      <p class="vietnam">Вьетнам</p>
+      <p class="vietnam_kitchen">
+        Вьетнамская кухня — отдельный повод для путешествия в эту страну<br /><a
+          href="#"
+          >Подробнее...</a
+        >
+      </p>
+      <img src="img/Rectangle 56.png" alt="" class="pic_alaska" />
+      <p class="alaska">Аляска</p>
+      <p class="alaska_kitchen">
+        Если вас не смущает то, из кого был сделан ваш стейк — вы легко сможете
+        оценить это блюдо в самых разных уголках Аляски.<br /><a href="#"
+          >Подробнее...</a
+        >
+      </p>
+      <img src="img/Rectangle 57.png" alt="" class="pic_paris" />
+      <p class="paris">Аляска</p>
+      <p class="paris_kitchen">
+        Еда является важнейший частью французской культуры, поэтому некоторые
+        блюда и их подача смогут удивить даже самых требовательных туристов.<br /><a
+          href="#"
+          >Подробнее...</a
+        >
+      </p>
+      <img src="img/Rectangle 45.png" alt="" class="flower_dec">
+    </section>
+    <section class="form">
+        <form name="form"  method="post" id="form">
+            
+            <p> <div class="titles">Ваше имя*</div> <input class="input" name="name" type="text"/> </p>
+             
+            <p> <div class="titles">Электронная почта*</div> <input class="input" name="email" type="text"/> </p>
+             
+            <p> <div class="titles">Номер телефона</div> <input class="input" name="subjects" type="text"/> </p>
+             
+            <p> <div class="titles">Текст сообщения:</div><textarea name="message" cols="22" rows="5" /></textarea></p>
+            <p><input id="submit" value="Отправить" type="submit" /></p>
+        </form>
+    </section>
+    <footer id="footer">
+        <p class="footer_logo_gold">cook&travel</p>
+        <a class="policy">Политика конфиденциальности</a>
+        <a class="public_of">Публична оферта</a>
+        <a class="footer_about_me" href="#about_me">Обо мне</a>
+        <a class="footer_photo" href="#photo">Фотоотчет</a>
+        <a class="footer_schedule" href="#schedule">Расписание</a>
+        <a class="footer_blog" href="#blog">Блог</a>
+           <nav class="footer_links">
+            <a href="#"class="footer_yt">YouTube
+             </a>
+            <a href="#" class="footer_vk">Vkontakte</a>
+            <a href="https://www.instagram.com/ubermensch_96/" class="footer_inst">instagram</a>
+            <a href="#" class="footer_fb">Facebook</a>
+          </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
